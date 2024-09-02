@@ -12,7 +12,7 @@ several(){
 }
 
 try(){
-  docker run -it -p 1935:1935 --name prism -e KICK_KEY="${kick_key}"
+  docker run -it -p 1935:1935 --name prism -e KICK_KEY="${kick_key}" prism
 }
 
 openPort(){
