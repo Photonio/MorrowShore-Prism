@@ -1,10 +1,13 @@
 twitch_key=live_960832965_eovTfit2vZ7kq6sf8W358bAgEYGbC0
 twitch_url="rtmp://dfw02.contribute.live-video.net/app/"
 
-facebook_key="FB-1050240290112733-0-AbwzUk5JzyqUbDzv"
+facebook_key="FB-1050280573442038-0-Aby1FIJY2wbX-IL1"
 
 youtube_key="y18u-da7e-1h5c-0hh6-3bfc"
 youtube_url="rtmp://a.rtmp.youtube.com/live2"
+
+kick_url="rtmps://fa723fc1b171.global-contribute.live-video.net"
+kick_key="sk_us-west-2_iZjXQ8zPB07y_WnVYgkFlRgFcZW2aAWFKiiDU9AP6Zw"
 
 x_key=""
 x_url=""
