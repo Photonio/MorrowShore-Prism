@@ -2,3 +2,9 @@ twitch_key=live_960832965_eovTfit2vZ7kq6sf8W358bAgEYGbC0
 twitch_url="rtmp://dfw02.contribute.live-video.net/app/"
 
 facebook_key="FB-1050240290112733-0-AbwzUk5JzyqUbDzv"
+
+youtube_key="y18u-da7e-1h5c-0hh6-3bfc"
+youtube_url="rtmp://a.rtmp.youtube.com/live2"
+
+x_key=""
+x_url=""
