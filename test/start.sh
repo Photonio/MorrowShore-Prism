@@ -1,4 +1,5 @@
 source key
+source rm\ old
 
 echo $twitch_url
 
@@ -14,5 +15,6 @@ openPort(){
   firewall-cmd --add-port=1935/tcp
 }
 
+rmOld
 openPort
 minimal

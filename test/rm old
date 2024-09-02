@@ -1,0 +1,5 @@
+rmOld(){
+  docker stop prism
+  docker rm prism
+  echo "Cleaned old docker"
+}
