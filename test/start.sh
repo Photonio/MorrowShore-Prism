@@ -10,4 +10,9 @@ minimal(){
   docker run -it -p 1935:1935 --name prism -e TWITCH_URL="${twitch_url}" -e TWITCH_KEY="${twitch_key}" prism
 }
 
+openPort(){
+  firewall-cmd --add-port=1935/tcp
+}
+
+openPort
 minimal
