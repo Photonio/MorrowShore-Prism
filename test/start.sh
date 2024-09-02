@@ -7,7 +7,7 @@ all(){
 }
 
 minimal(){
-  docker run -it -p 1935:1935 --name prism -e TWITCH_URL="${twitch_url}" -e TWITCH_KEY="${twitch_key}"
+  docker run -it -p 1935:1935 --name prism -e TWITCH_URL="${twitch_url}" -e TWITCH_KEY="${twitch_key}" prism
 }
 
 minimal
