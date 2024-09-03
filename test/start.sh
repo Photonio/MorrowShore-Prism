@@ -8,7 +8,7 @@ all(){
 }
 
 several(){
-  docker run -it -p 1935:1935 --name prism -e TWITCH_URL="${twitch_url}" -e TWITCH_KEY="${twitch_key}" -e FACEBOOK_KEY="${facebook_key}" -e YOUTUBE_KEY="${youtube_key}" prism
+  docker run -it -p 1935:1935 --name prism -e TWITCH_URL="${twitch_url}" -e TWITCH_KEY="${twitch_key}" -e FACEBOOK_KEY="${facebook_key}" -e YOUTUBE_KEY="${youtube_key}" -e KICK_KEY="${kick_key}" prism
 }
 
 try(){
@@ -23,3 +23,6 @@ rmOld
 openPort
 #several
 try
+
+https://www.google.com/search?q=placeholder+video
+
